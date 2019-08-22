@@ -1,0 +1,19 @@
+{
+  "name": "fr24-decoder",
+  "version": "0.0.1",
+  "description": "fr24 ADSB-decoder websocket-io",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "webamsm",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "flightradar24-client": "^0.3.0",
+    "socket.io": "^2.2.0"
+  }
+}
